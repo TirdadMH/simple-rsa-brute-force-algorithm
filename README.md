@@ -8,7 +8,7 @@ It attempts to **crack small RSA keys** by factoring the public modulus \( n \),
 ## 🚀 Features
 
 - Factorizes small RSA modulus \( n \) into primes \( p \) and \( q \)
-- Calculates Euler’s totient function \( \varphi(n) = (p - 1)(q - 1) \)
+- Calculates Euler’s totient function \( φ(n) = (p - 1)(q - 1) \)
 - Computes the private key \( d \) using the extended Euclidean algorithm
 - Decrypts the ciphertext using modular exponentiation
 - Fully implemented in C++ with clean logic and CLI output
